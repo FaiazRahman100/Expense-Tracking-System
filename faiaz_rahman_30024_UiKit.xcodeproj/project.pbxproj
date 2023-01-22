@@ -13,6 +13,11 @@
 		8995038129496BF9003ECCED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8995037F29496BF9003ECCED /* Main.storyboard */; };
 		8995038329496BFA003ECCED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8995038229496BFA003ECCED /* Assets.xcassets */; };
 		8995038629496BFA003ECCED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8995038429496BFA003ECCED /* LaunchScreen.storyboard */; };
+		899503AE29497622003ECCED /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899503AD29497622003ECCED /* SecondVC.swift */; };
+		899503B029497D18003ECCED /* CustomVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899503AF29497D18003ECCED /* CustomVC1.swift */; };
+		899503B229498DBF003ECCED /* CustomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899503B129498DBF003ECCED /* CustomHeader.swift */; };
+		899503B429498DD3003ECCED /* CustomHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899503B329498DD3003ECCED /* CustomHeader.xib */; };
+		899503B6294997F4003ECCED /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899503B5294997F4003ECCED /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		8995038229496BFA003ECCED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8995038529496BFA003ECCED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8995038729496BFA003ECCED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899503AD29497622003ECCED /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		899503AF29497D18003ECCED /* CustomVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVC1.swift; sourceTree = "<group>"; };
+		899503B129498DBF003ECCED /* CustomHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeader.swift; sourceTree = "<group>"; };
+		899503B329498DD3003ECCED /* CustomHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHeader.xib; sourceTree = "<group>"; };
+		899503B5294997F4003ECCED /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				8995038229496BFA003ECCED /* Assets.xcassets */,
 				8995038429496BFA003ECCED /* LaunchScreen.storyboard */,
 				8995038729496BFA003ECCED /* Info.plist */,
+				899503AD29497622003ECCED /* SecondVC.swift */,
+				899503AF29497D18003ECCED /* CustomVC1.swift */,
+				899503B129498DBF003ECCED /* CustomHeader.swift */,
+				899503B329498DD3003ECCED /* CustomHeader.xib */,
+				899503B5294997F4003ECCED /* Data.swift */,
 			);
 			path = faiaz_rahman_30024_UiKit;
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8995038629496BFA003ECCED /* LaunchScreen.storyboard in Resources */,
+				899503B429498DD3003ECCED /* CustomHeader.xib in Resources */,
 				8995038329496BFA003ECCED /* Assets.xcassets in Resources */,
 				8995038129496BF9003ECCED /* Main.storyboard in Resources */,
 			);
@@ -138,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899503B6294997F4003ECCED /* Data.swift in Sources */,
 				8995037E29496BF9003ECCED /* ViewController.swift in Sources */,
 				8995037A29496BF9003ECCED /* AppDelegate.swift in Sources */,
+				899503AE29497622003ECCED /* SecondVC.swift in Sources */,
+				899503B029497D18003ECCED /* CustomVC1.swift in Sources */,
 				8995037C29496BF9003ECCED /* SceneDelegate.swift in Sources */,
+				899503B229498DBF003ECCED /* CustomHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
